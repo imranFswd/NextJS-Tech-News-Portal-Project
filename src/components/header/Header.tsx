@@ -8,7 +8,7 @@ function Header({ className }: { className?: string }) {
   return (
     <header>
         <div className=''>
-            <div className={cn("fixed top-5 inset-x-0 max-w-2xl mx-auto z-50 bg-slate-300-0 ", className)}>
+            <div className={cn("fixed top-5 inset-x-0 max-w-2xl mx-auto z-50 ", className)}>
                 <div>
                     <div>
                         <div className="">
