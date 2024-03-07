@@ -1,22 +1,13 @@
 
+import Header from "@/components/header/Header";
+
 
 export default function Home() {
   return (
     <div>
       <div>
 
-        <header>
-        <div className="flex justify-between items-center p-4 px-8 bg-slate-300">
-            <div>
-              <span>imranFswd</span>
-            </div>
-
-            <div className="flex justify-around items-center gap-2">
-              <span>test</span>
-              <span>hd</span>
-            </div>
-          </div>
-        </header>
+        <Header />
 
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div>
@@ -28,6 +19,8 @@ export default function Home() {
           </h1>
         </div>
       </main>
+
+      
       </div>
     </div>
   );

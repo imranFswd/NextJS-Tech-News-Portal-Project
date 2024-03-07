@@ -1,0 +1,17 @@
+
+
+
+npm install -g create-next-app@latest
+
+npx create-next-app@latest .
+
+
+npm cache clean --force and restart vscode
+
+
+npm run dev
+
+
+
+
+

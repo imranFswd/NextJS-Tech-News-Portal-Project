@@ -1,0 +1,14 @@
+{
+    "tech": [
+        {
+            "id": 1,
+            "title": "Redmi",
+            "slug": "redmi",
+            "description": "A redmi smartphone in 2024",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/"
+        }
+    ]
+}
