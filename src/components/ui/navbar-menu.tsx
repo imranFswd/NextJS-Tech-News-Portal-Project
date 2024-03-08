@@ -25,7 +25,7 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative bg-white hover:bg-green-50 py-2 px-4 hover:rounded-full shadow-sm hover:shadow-md">
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
@@ -43,7 +43,7 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2]  mt-2 shadow-xl"
+                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2]  shadow-xl mt-2 "
               >
                 <motion.div
                   layout // layout ensures smooth animation
@@ -113,7 +113,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 py-3 px-5 rounded-full shadow-sm hover:shadow-md hover:text-[#000] hover:bg-[#f5f5f5] min-w-[200px] capitalize"
+      className="text-neutral-700 dark:text-neutral-200 py-3 px-5 hover:rounded-full shadow-sm hover:shadow-md hover:text-[#000] hover:bg-blue-50 min-w-[200px] capitalize"
     >
       {children}
     </Link>
