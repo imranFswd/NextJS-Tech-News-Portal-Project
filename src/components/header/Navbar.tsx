@@ -1,7 +1,7 @@
+
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
-// import { cn } from "@/utils/cn";
+import { HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
 import Link from "next/link";
 
 
@@ -14,13 +14,13 @@ function Navbar({ className }: { className?: string }) {
     <div>
         <div>
         <Menu setActive={setActive}>
-            <Link href={"/"}>
+            <Link href={"/"} className=" transition-all duration-300">
                 <MenuItem setActive={setActive} active={active} item="Home">
 
                 </MenuItem>
             </Link>
 
-            <MenuItem setActive={setActive} active={active} item="Smartphone">
+            <MenuItem  setActive={setActive} active={active} item="Smartphone">
                 <div className="flex flex-col space-y-4 text-sm">
                 <HoveredLink href="/samsung">samsung</HoveredLink>
                     <HoveredLink href="/xiaomi">xiaomi</HoveredLink>

@@ -25,7 +25,7 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative bg-white hover:bg-green-50 py-2 px-4 hover:rounded-full shadow-sm hover:shadow-md">
+    <div onMouseEnter={() => setActive(item)} className="relative bg-white hover:bg-green-50 py-2 px-4 hover:rounded-full shadow-sm hover:shadow-md transition-all duration-300">
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
@@ -39,7 +39,7 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && children && (
-            <div className="absolute top-[calc(100%_+_1rem)] left-1/2 transform -translate-x-1/2">
+            <div className="absolute top-[calc(100%_+_1rem)] left-1/2 transform -translate-x-1/2 transition-all duration-300">
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center gap-5 space-x-4 px-8 py-5 "
+      className="relative rounded-full boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-md flex justify-center gap-5 space-x-4 px-8 py-5 transition-all duration-300 "
     >
       {children}
     </nav>
@@ -89,7 +89,7 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2  transition-all duration-300">
       <Image
         src={src}
         width={140}
@@ -113,7 +113,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 py-3 px-5 hover:rounded-full shadow-sm hover:shadow-md hover:text-[#000] hover:bg-blue-50 min-w-[200px] capitalize"
+      className="text-neutral-700 dark:text-neutral-200 py-3 px-5 hover:rounded-full shadow-sm hover:shadow-md hover:text-[#000] hover:bg-blue-50 min-w-[200px] capitalize transition-all duration-300"
     >
       {children}
     </Link>

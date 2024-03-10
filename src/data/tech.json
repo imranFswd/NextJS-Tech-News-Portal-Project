@@ -2,13 +2,93 @@
     "tech": [
         {
             "id": 1,
-            "title": "Redmi",
+            "title": "Redmi Note 24 Pro Plus Ultra",
             "slug": "redmi",
-            "description": "A redmi smartphone in 2024",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga itaque quidem ullam laudantium eius maiores, placeat voluptas. Cum, aspernatur quas sequi quis labore accusantium sunt ullam omnis? Quod, in tenetur?",
             "price": 299.99,
             "relesedDate": "24 January 2024",
             "isFeatured": true,
-            "image": "/"
+            "image": "/image.png"
+        },
+        {
+            "id": 2,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Quaerat, expedita quibusdam saepe nulla illum veniam incidunt tempora, voluptas, id impedit debitis consectetur inventore perferendis provident tenetur. Maiores cum odit voluptatibus error animi rem corrupti libero adipisci iusto eos.",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 3,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Sint eos nobis quo magnam vel, maxime aspernatur, iusto perspiciatis minima ex consequatur, ducimus unde modi dicta voluptas illum iure assumenda eligendi quasi architecto officia repellat dolore placeat aut. Mollitia!",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 3,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Natus iusto adipisci non laborum blanditiis suscipit ab fugiat optio nesciunt mollitia libero eaque impedit dolore sequi error, nobis dolorem maiores. Esse enim iure magnam iusto quis, quam rem quisquam.",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 3,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Explicabo mollitia ipsam iure a obcaecati. Enim maiores ut ipsa, saepe rerum minus libero omnis eaque quidem pariatur iure cupiditate deleniti, quod animi recusandae eos. Quia sint illum labore laboriosam?",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 3,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Nam ratione culpa asperiores in, quos ipsam commodi et soluta labore facere, dolor similique amet expedita! Aliquid ea velit mollitia libero eos. Quis reiciendis voluptatem perspiciatis, id dignissimos ratione dolores.",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 3,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Officiis voluptatum eos eius. Consequatur explicabo pariatur, fuga ex corrupti accusamus quam ut dignissimos? Veritatis suscipit impedit labore. Adipisci deleniti commodi dignissimos officia? Officia obcaecati, magnam totam accusantium a unde!",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 3,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Repudiandae praesentium repellat dolore? Voluptate vel obcaecati excepturi eius sunt, labore explicabo quisquam, iusto, atque id porro. Labore sequi saepe, laborum beatae natus, aliquam ipsa similique rem eos pariatur sunt?",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
+        },
+        {
+            "id": 4,
+            "title": "Redmi Note 24 Pro Plus Ultra",
+            "slug": "redmi",
+            "description": "Ipsam, fugiat animi, magnam doloribus quam numquam molestiae facilis amet, illo aperiam commodi dolores eum quod! Vitae magni error non quibusdam quam omnis ut! Sed eum voluptate laborum quos facilis.",
+            "price": 299.99,
+            "relesedDate": "24 January 2024",
+            "isFeatured": true,
+            "image": "/image.png"
         }
     ]
 }

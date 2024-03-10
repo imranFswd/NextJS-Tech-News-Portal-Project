@@ -1,5 +1,6 @@
 
 import Header from "@/components/header/Header";
+import FeaturedSection from "@/components/main/featured/FeaturedSection";
 import HeroSection from "@/components/main/hero/HeroSection";
 import { Spotlight } from "@/components/ui/Spotlight";
 
@@ -19,6 +20,8 @@ export default function Home() {
         <Header />
 
         <HeroSection />
+
+        <FeaturedSection />
 
         </div>
 
