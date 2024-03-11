@@ -46,9 +46,9 @@ function FeaturedSection() {
                     featuredData.map((tech:Tech) => (
                         <div key={tech.id} className="p-5">
                             <BackgroundGradient className="flex flex-col rounded-[1.5rem] bg-white dark:bg-zinc-900 overflow-hidden h-full --max-w-sm">
-                                <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
+                                <div className="p-[1.875rem] sm:p-10 flex flex-col items-center text-center flex-grow">
 
-                                    <BackgroundGradient>
+                                    <BackgroundGradient className="min-w-5">
                                         <div className="overflow-hidden bg-slate-50000 rounded-[1rem] shadow-sm  border--border-teal-100 hover:shadow-md ">
                                             {/* <Image
                                                 src={`${tech.image}`}
