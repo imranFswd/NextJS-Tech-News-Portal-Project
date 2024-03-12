@@ -45,7 +45,7 @@ function FeaturedSection() {
                 {
                     featuredData.map((tech:Tech) => (
                         <div key={tech.id} className="p-5">
-                            <BackgroundGradient className="flex flex-col rounded-[1.5rem] bg-white dark:bg-zinc-900 overflow-hidden h-full --max-w-sm">
+                            <BackgroundGradient className="flex flex-col rounded-[1.5rem] cursor-default selection:bg-teal-600 selection:text-white hover:bg-white bg-teal-50 dark:bg-zinc-900 overflow-hidden h-full --max-w-sm">
                                 <div className="p-[1.875rem] sm:p-10 flex flex-col items-center text-center flex-grow">
 
                                     <BackgroundGradient className="min-w-5">
