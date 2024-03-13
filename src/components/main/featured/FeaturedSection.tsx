@@ -1,7 +1,7 @@
 
 "use client"
-import { BackgroundGradient } from "@/components/ui/background-gradient"
-import { Button } from "@/components/ui/moving-border"
+import { BackgroundGradient } from "@/components/ui/aceternity/background-gradient"
+import { Button } from "@/components/ui/aceternity/moving-border"
 import techData from "@/data/tech.json"
 // import Image from "next/image"
 import Link from "next/link"

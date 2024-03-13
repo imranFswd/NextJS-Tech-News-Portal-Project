@@ -1,8 +1,8 @@
 
 "use client"
-import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { HoverEffect } from "@/components/ui/aceternity/card-hover-effect";
 // import { BackgroundGradient } from "@/components/ui/background-gradient"
-import { Button } from "@/components/ui/moving-border"
+import { Button } from "@/components/ui/aceternity/moving-border"
 // import techData from "@/data/tech.json"
 // import Image from "next/image"
 import Link from "next/link"

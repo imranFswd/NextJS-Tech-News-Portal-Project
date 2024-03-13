@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import { Button } from '@/components/ui/moving-border'
+import { Button } from '@/components/ui/aceternity/moving-border'
 
 
 function HeroBtn() {

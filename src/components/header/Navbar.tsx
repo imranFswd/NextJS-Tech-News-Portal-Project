@@ -1,7 +1,7 @@
 
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
+import { HoveredLink, Menu, MenuItem } from "@/components/ui/aceternity/navbar-menu";
 import Link from "next/link";
 
 
