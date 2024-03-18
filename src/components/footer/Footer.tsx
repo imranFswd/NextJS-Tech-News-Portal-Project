@@ -7,7 +7,7 @@ import FooterNavbarTop from "./FooterNavbarTop"
 
 function Footer() {
   return (
-    <footer>
+    <div>
         <div>
             <div className="bg-white dark:bg-black to-gray-400 py-20">
 
@@ -77,7 +77,7 @@ function Footer() {
 
             
         </div>
-    </footer>
+    </div>
   )
 }
 

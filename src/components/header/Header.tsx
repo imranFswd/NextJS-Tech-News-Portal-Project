@@ -7,7 +7,7 @@ import { cn } from "@/utils/cn";
 
 function Header({ className }: { className?: string }) {
   return (
-    <header>
+    <div>
         <div className=''>
             <div className={cn("fixed top-5 inset-x-0 max-w-2xl mx-auto z-50 ", className)}>
                 <div>
@@ -23,7 +23,7 @@ function Header({ className }: { className?: string }) {
                 </div>
             </div>
         </div>
-    </header>
+    </div>
   )
 }
 

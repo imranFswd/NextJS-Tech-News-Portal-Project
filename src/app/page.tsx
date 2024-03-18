@@ -1,6 +1,5 @@
 
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
+
 import FeaturedBrandsSection from "@/components/main/featured/FeaturedBrandsSection";
 import FeaturedSection from "@/components/main/featured/FeaturedSection";
 import HeroSection from "@/components/main/hero/HeroSection";
@@ -19,7 +18,7 @@ export default function Home() {
             fill="white"
         />
 
-        <Header />
+        
 
         <HeroSection />
 
@@ -29,7 +28,7 @@ export default function Home() {
 
         <FeaturedBrandsSection />
 
-        <Footer />
+        
 
         </div>    
       </div>
